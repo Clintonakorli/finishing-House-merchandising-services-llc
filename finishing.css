@@ -1,0 +1,234 @@
+body, html {
+  background-image: url(content\ image.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.header {
+  
+  background:rgb(255, 255, 255);
+  color: rgb(255, 248, 248);
+  text-align: center;
+  padding:15px 0;
+  font-size: 20px;
+  position: relative;
+  
+ 
+}
+
+.nav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.nav ul li {
+  position: relative;
+}
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  transition: 0.3s;
+
+  
+}
+.nav ul li a:hover{
+  background: #f4f4f5;
+  border-radius: 5px;
+  color: #007BFF;
+
+}
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+
+  
+}
+section {
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+}
+.quote-button{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+iframe {
+  width: 100%;
+  height: 300px;
+  border: 2px solid 007BFF;
+  border-radius: 10px;
+}
+.LLC {
+color: rgb(0, 0, 0);
+font-size: 25px;
+font-weight: bold;
+}
+.image{
+ border-radius: 10px;
+ display: flex;
+}
+.footer{
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-right: 20px;
+}
+.All{
+  transition-duration: 0.5s;
+  cursor: pointer;
+  transition-delay: 0.2;
+
+}
+.All:hover{
+  transition-duration: 0.5s;
+}
+.whatsapp-btn {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background-color: #25D366;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  font-size: 1.2em;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+
+  margin-top: 20px;
+
+  font-weight: bold;
+
+  transition: background-color 0.3s ease;
+
+}
+
+
+
+.whatsapp-btn img {
+
+  width: 25px;
+
+  margin-right: 10px;
+
+}
+
+
+
+.whatsapp-btn:hover {
+
+  background-color: #1EBE5D;
+
+}
+.icon{
+  width:18px;
+  margin-left: 2px;
+  margin-right: 4px;
+  margin-top: 3px;
+  
+
+}
+.finishing-icon{
+  border-radius: 50px;
+  margin-left: 0;
+  margin-right: 620px;
+  margin-top: 35px;
+  margin-bottom: 1px;
+  
+}
+.button{
+  margin-top: 10px;
+  text-align: end;
+  color:#333;
+  background-color: #007BFF;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+  border-radius: 40px;
+
+}
+.location-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.map-container {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+.hero-image {
+  background: url(img_man.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.company{
+  color: #2f06648a;
+}
+.order{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #0362c2;
+  color: #e6f2ff;
+  border-color: white;
+  transition: 0.60s;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+
+
+}
+.order:hover{
+  background-color: #fbfbfc;
+  color: #005db9;
+}
